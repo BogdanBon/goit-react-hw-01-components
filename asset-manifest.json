@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components/static/css/main.8f260082.chunk.css",
+    "main.css": "/goit-react-hw-01-components/static/css/main.7c58dd76.chunk.css",
     "main.js": "/goit-react-hw-01-components/static/js/main.dd544ee0.chunk.js",
     "main.js.map": "/goit-react-hw-01-components/static/js/main.dd544ee0.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-01-components/static/js/runtime-main.00a308d6.js",
@@ -8,14 +8,14 @@
     "static/js/2.057ee452.chunk.js": "/goit-react-hw-01-components/static/js/2.057ee452.chunk.js",
     "static/js/2.057ee452.chunk.js.map": "/goit-react-hw-01-components/static/js/2.057ee452.chunk.js.map",
     "index.html": "/goit-react-hw-01-components/index.html",
-    "static/css/main.8f260082.chunk.css.map": "/goit-react-hw-01-components/static/css/main.8f260082.chunk.css.map",
+    "static/css/main.7c58dd76.chunk.css.map": "/goit-react-hw-01-components/static/css/main.7c58dd76.chunk.css.map",
     "static/js/2.057ee452.chunk.js.LICENSE.txt": "/goit-react-hw-01-components/static/js/2.057ee452.chunk.js.LICENSE.txt",
     "static/media/NoImageFound.jpg.298b9820.png": "/goit-react-hw-01-components/static/media/NoImageFound.jpg.298b9820.png"
   },
   "entrypoints": [
     "static/js/runtime-main.00a308d6.js",
     "static/js/2.057ee452.chunk.js",
-    "static/css/main.8f260082.chunk.css",
+    "static/css/main.7c58dd76.chunk.css",
     "static/js/main.dd544ee0.chunk.js"
   ]
 }
