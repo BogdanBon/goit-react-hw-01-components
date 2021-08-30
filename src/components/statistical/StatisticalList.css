@@ -1,0 +1,26 @@
+.statistics {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 340px;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 5px;
+  text-align: center;
+}
+
+.stat-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  margin: 3px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 2px;
+}

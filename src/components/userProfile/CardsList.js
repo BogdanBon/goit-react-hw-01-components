@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import Card from './Card';
+import './CardList.css';
 
 function CardsList({ items }) {
   return (
     <div>
-      <ul>
+      <ul className="card-list">
         {items.map(e => (
           <li key={e.tag}>
             <Card

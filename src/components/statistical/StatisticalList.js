@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types';
 import Statistical from './Statistical';
+import './StatisticalList.css';
 
 function StatisticalList({ title, data }) {
   return (
     <div>
-      <section class="statistics">
-        {title && <h2 class="title">{title}</h2>}
-        <ul class="stat-list">
+      <section className="statistics">
+        {title && <h2 className="title">{title}</h2>}
+        <ul className="stat-list">
           {data.map(item => (
-            <li key={item.id} class="item">
+            <li key={item.id} className="item">
               <Statistical label={item.label} percentage={item.percentage} />
             </li>
           ))}
