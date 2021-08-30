@@ -6,12 +6,16 @@
   border-radius: 10px;
 }
 
-.transaction-history {
+.transactions:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.transaction_history {
   border-collapse: collapse;
   width: 100%;
 }
 
-.table-border {
+.table_border {
   border: 1px solid #ccc;
   text-align: center;
   padding: 10px;

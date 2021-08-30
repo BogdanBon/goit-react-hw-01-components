@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import defaultImg from '../default/NoImageFound.jpg.png';
-import './Card.css';
+import s from './Card.module.css';
 
 function Card({
   name = 'unknown',
@@ -12,26 +12,26 @@ function Card({
   likes = '0',
 }) {
   return (
-    <div className="profile">
-      <div className="description">
-        <img src={avatar} alt={name} className="avatar" />
-        <p className="name">Name: {name}</p>
-        <p className="tag">Tag: @{tag}</p>
-        <p className="location">Location: {location}</p>
+    <div className={s.profile}>
+      <div className={s.description}>
+        <img src={avatar} alt={name} className={s.avatar} />
+        <p className={s.name}>Name: {name}</p>
+        <p className={s.tag}>Tag: @{tag}</p>
+        <p className={s.location}>Location: {location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={s.stats}>
         <li>
-          <span className="label">Followers </span>
-          <span className="quantity">{followers}</span>
+          <span className={s.label}>Followers </span>
+          <span className={s.quantity}>{followers}</span>
         </li>
         <li>
-          <span className="label">Views </span>
-          <span className="quantity">{views}</span>
+          <span className={s.label}>Views </span>
+          <span className={s.quantity}>{views}</span>
         </li>
         <li>
-          <span className="label">Likes </span>
-          <span className="quantity">{likes}</span>
+          <span className={s.label}>Likes </span>
+          <span className={s.quantity}>{likes}</span>
         </li>
       </ul>
     </div>

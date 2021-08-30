@@ -9,7 +9,7 @@
 }
 
 .profile:hover {
-  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .description > p {
@@ -17,6 +17,10 @@
 }
 
 .stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0;
 }
 

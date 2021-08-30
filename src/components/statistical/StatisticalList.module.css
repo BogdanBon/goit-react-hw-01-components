@@ -7,20 +7,32 @@
   border-radius: 10px;
 }
 
+.statistics:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
 .title {
   margin: 5px;
   text-align: center;
 }
 
-.stat-list {
+.stat_list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .item {
+  width: 50px;
   margin: 3px;
   border: 1px solid #ccc;
   border-radius: 2px;
   padding: 2px;
+  text-align: center;
+}
+
+.item > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
